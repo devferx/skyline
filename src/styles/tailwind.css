@@ -48,7 +48,6 @@
 
 html {
   font: "Inter", sans-serif;
-  font-size: 18px;
   color: white;
 }
 
@@ -117,14 +116,41 @@ body {
 .headline1 {
   font: var(--mobile-h1);
 }
-
+.headline2 {
+  font: var(--mobile-h2);
+}
+.body1 {
+  font: var(--mobile-body1regular);
+}
+.body1-semibold {
+  font: var(--mobile-body1semibold);
+}
 .body2 {
   font: var(--mobile-body2regular);
+}
+
+.title-gradient {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.title-gradient .text-gradient {
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
   .headline1 {
     font: var(--desktop-h1);
+  }
+  .headline2 {
+    font: var(--desktop-h2);
+  }
+  .body1 {
+    font: var(--desktop-body1regular);
+  }
+  .body1-semibold {
+    font: var(--desktop-body1semibold);
   }
   .body2 {
     font: var(--desktop-body2regular);
