@@ -19,6 +19,7 @@ module.exports = {
         pink: "#d424e6",
         red: "#f71058",
         orange: "#e1585f",
+        "card-bg": "#19172A",
       },
     },
   },

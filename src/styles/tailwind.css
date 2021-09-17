@@ -289,3 +289,23 @@ body {
     width: max-content;
   }
 }
+
+/* share-section */
+.share-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.share-section__content {
+  font: var(--mobile-body2regular);
+}
+
+@media screen and (min-width: 768px) {
+  .share-section__content {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
