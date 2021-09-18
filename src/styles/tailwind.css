@@ -131,6 +131,9 @@ body {
 .body2 {
   font: var(--mobile-body2regular);
 }
+.body2-bold {
+  font: var(--desktop-body2bold);
+}
 
 .title-gradient {
   background: var(--gradient);
@@ -326,5 +329,19 @@ body {
 @media screen and(min-width: 768px) {
   .item {
     font: var(--desktop-category);
+  }
+}
+
+/* Luminaria Title */
+.luminaria {
+  background: linear-gradient(180deg, #3442a8 0%, #0e0c20 100%);
+}
+.luminaria__title {
+  font: var(--mobile-h3);
+}
+
+@media screen and (min-width: 768px) {
+  .luminaria__title {
+    font: var(--desktop-h4);
   }
 }
