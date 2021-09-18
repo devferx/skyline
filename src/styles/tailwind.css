@@ -345,3 +345,37 @@ body {
     font: var(--desktop-h4);
   }
 }
+
+/* Footer */
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: white;
+}
+
+.footer__table__body {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  row-gap: 24px;
+}
+
+.footer__table__body p:nth-child(odd) {
+  font: var(--mobile-body2semibold);
+}
+
+.footer__table__body p:nth-child(even) {
+  @apply text-grey;
+  font: var(--mobile-body2regular);
+}
+
+@media screen and (min-width: 768px) {
+  .footer__table__body p:nth-child(odd) {
+    font: var(--desktop-body2bold);
+  }
+
+  .footer__table__body p:nth-child(even) {
+    @apply text-grey;
+    font: var(--desktop-body2regular);
+  }
+}
